@@ -4,17 +4,30 @@
     --main-title-color: #FFF;
 }
 
-body {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
     font-family: 'Rubik', sans-serif;
 }
 
-.header {}
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: yellow;
+}
 
 .logo {
     width: 155px;
+    margin: 10px 0;
+    line-height: 0;
 }
 
 .image {
@@ -23,9 +36,20 @@ body {
 
 .menu {
     font-size: 16px;
+    text-transform: uppercase;
+    list-style: none;
+    display: flex;
+    margin-bottom: 13px;
 }
 
-.menu-item {}
+.menu-item {
+    margin: 0 10px;
+}
+
+.menu-link {
+    color: var(--menu-text-color);
+    text-decoration: none;
+}
 
 .main {}
 

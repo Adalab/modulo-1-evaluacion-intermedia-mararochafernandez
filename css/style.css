@@ -1,7 +1,7 @@
 :root {
-    --menu-text-color: #4A4A4A;
-    --background-color: #3CDBC0;
-    --main-title-color: #FFF;
+    --menu-text-color: #4a4a4a;
+    --background-color: #3cdbc0;
+    --main-title-color: #fff;
 }
 
 * {
@@ -21,7 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: yellow;
+    background-color: #fff;
 }
 
 .logo {
@@ -51,8 +51,16 @@ body {
     text-decoration: none;
 }
 
-.main {}
+.main {
+    height: 100vh;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .title {
     font-size: 30px;
+    color: var(--main-title-color);
 }

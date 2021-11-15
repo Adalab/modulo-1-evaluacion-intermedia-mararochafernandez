@@ -12,6 +12,7 @@
 
 body {
     font-family: 'Rubik', sans-serif;
+    background-color: var(--background-color);
 }
 
 
@@ -45,13 +46,10 @@ body {
     margin-bottom: 13px;
 }
 
-.menu-item {
-    margin: 0 10px;
-}
-
 .menu-link {
     color: var(--menu-text-color);
     text-decoration: none;
+    margin: 0 10px;
 }
 
 @media all and (min-width: 768px) {
@@ -73,7 +71,6 @@ body {
 
 .main {
     height: 100vh;
-    background-color: var(--background-color);
     display: flex;
     flex-direction: column;
     justify-content: center;

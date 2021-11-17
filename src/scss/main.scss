@@ -21,6 +21,10 @@
     box-sizing: border-box;
 }
 
+ul {
+    list-style: none;
+}
+
 body {
     font-family: 'Rubik', sans-serif;
     background-color: var(--background-color);
@@ -49,10 +53,12 @@ body {
     width: 100%;
 }
 
-.menu {
+.nav {
     font-size: 16px;
     text-transform: uppercase;
-    list-style: none;
+}
+
+.menu {
     display: flex;
     margin-bottom: 13px;
 }

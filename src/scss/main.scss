@@ -27,7 +27,6 @@ ul {
 
 body {
     font-family: 'Rubik', sans-serif;
-    background-color: var(--background-color);
 }
 
 
@@ -35,7 +34,6 @@ body {
 
 .header {
     position: fixed;
-    top: 0;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -69,6 +67,28 @@ body {
     padding: 10px;
 }
 
+
+/* main styles */
+
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
+}
+
+.title {
+    font-size: 30px;
+    color: var(--main-title-color);
+    text-transform: capitalize;
+    text-align: center;
+    word-spacing: 100vw;
+}
+
+
+/* media queries */
+
 @media all and (min-width: 768px) {
     .header {
         flex-direction: row;
@@ -81,29 +101,6 @@ body {
         margin-right: 20px;
         margin-bottom: 0;
     }
-}
-
-
-/* main styles */
-
-.main {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.title {
-    font-size: 30px;
-    color: var(--main-title-color);
-    text-transform: capitalize;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-@media all and (min-width: 768px) {
     .title {
         font-size: 40px;
     }
